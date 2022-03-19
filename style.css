@@ -1,0 +1,22 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"); /*font-family: 'Kumbh Sans', sans-serif;*/
+
+/* Global Variables */
+:root {
+  --clr-Dark-cyan: hsl(185, 75%, 39%);
+  --clr-Very-dark-desaturated: hsl(229, 23%, 23%);
+  --clr-Dark-grayish-blue: hsl(227, 10%, 46%);
+  --radius: 1rem;
+  --ff--primary: "Kumbh Sans", sans-serif;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 16px;
+  font-family: var(--ff--primary);
+}

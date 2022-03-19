@@ -19,4 +19,56 @@
 body {
   font-family: 16px;
   font-family: var(--ff--primary);
+  display: grid;
+  place-items: center;
+  background: var(--clr-Dark-cyan);
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+.section-center {
+  margin: 9.1875rem 1.5rem;
+  border-radius: 1rem;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.person {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-top: -54px;
+  margin-bottom: 1.25rem;
+}
+.name {
+  color: var(--clr-Very-dark-desaturated);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.name .age {
+  color: var(--clr-Dark-grayish-blue);
+}
+.country {
+  color: var(--clr-Dark-grayish-blue);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid hsl(227, 10%, 46%, 0.2);
+  padding: 1.5rem 2.5rem;
+}
+.footer p.num {
+  color: var(--clr-Very-dark-desaturated);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.footer p {
+  color: var(--clr-Very-dark-desaturated);
+  font-weight: 400;
 }
